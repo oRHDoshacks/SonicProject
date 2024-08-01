@@ -11,3 +11,5 @@ function sqlconect.fechar(con,env)
     con:close()
     env:close()
 end
+
+return sqlconect
