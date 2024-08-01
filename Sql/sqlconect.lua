@@ -1,4 +1,4 @@
-local mysql = require "luasql.mysql" --biblioteca MySql
+local mysql = require("luasql.mysql")
 local sqlconect={}
 
 function sqlconect.abrir(server,dbs,usuario,senha)

@@ -1,19 +1,19 @@
-mes={"jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"}
+local mes={"jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"}
 
 print("coloque a quantidade de messes")
-mesesat=tonumber(io.read())
+local mesesat=tonumber(io.read())
 os.execute("cls")
 
 print("Coloque o ano atual")
-anoat=tonumber(io.read())
+local anoat=tonumber(io.read())
 
 os.execute("cls")
 print("coloque o valor numerico do mes atual\nEx:Maio=5,Dezembro=12")
-mesat=tonumber(io.read())
+local mesat=tonumber(io.read())
 
 os.execute("cls")
-print("Valores de confirmação\nMeses = "..mesesat.."\nAno de inicio = ".. anoat .. "\nMes de inicio = ".. mesat)
-io.read()
+print("Valores de confirmaï¿½ï¿½o\nMeses = "..mesesat.."\nAno de inicio = ".. anoat .. "\nMes de inicio = ".. mesat)
+local cofr=io.read()
 
 for i=1,mesesat do
 	if mesat<12 then
