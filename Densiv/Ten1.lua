@@ -24,3 +24,13 @@ print(tonumber(a)) --1
 print(tonumber(b)) --nil
 print(tonumber(c)) --1
 print(type(tonumber(c))) -- numero
+
+
+--[[
+Testes logicos
+]]
+
+a=5
+b=9
+c=a-b
+
