@@ -9,3 +9,5 @@ local desen=conexao.abrir(servidor,dbs,usuario,senha)
 print(desen)
 conexao.fechar(desen,desen)
 print(desen)
+
+io.read()
